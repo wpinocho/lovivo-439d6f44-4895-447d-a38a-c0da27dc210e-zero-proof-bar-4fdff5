@@ -54,6 +54,18 @@ export const EcommerceTemplate = ({
                 Home
               </Link>
               <Link 
+                to="/collections" 
+                className="text-y2k-aqua hover:text-y2k-cyan transition-colors font-bold uppercase text-sm tracking-wider"
+              >
+                Collections
+              </Link>
+              <Link 
+                to="/about" 
+                className="text-y2k-aqua hover:text-y2k-cyan transition-colors font-bold uppercase text-sm tracking-wider"
+              >
+                About Us
+              </Link>
+              <Link 
                 to="/blog" 
                 className="text-y2k-aqua hover:text-y2k-cyan transition-colors font-bold uppercase text-sm tracking-wider"
               >
@@ -120,6 +132,18 @@ export const EcommerceTemplate = ({
                 className="block text-y2k-aqua hover:text-y2k-cyan transition-colors"
               >
                 Home
+              </Link>
+              <Link 
+                to="/collections" 
+                className="block text-y2k-aqua hover:text-y2k-cyan transition-colors"
+              >
+                Collections
+              </Link>
+              <Link 
+                to="/about" 
+                className="block text-y2k-aqua hover:text-y2k-cyan transition-colors"
+              >
+                About Us
               </Link>
               <Link 
                 to="/blog" 
